@@ -30,7 +30,7 @@ public class Server {
         try {
             int serverPort = 7896;
             
-            for (int i = 0; i < 3; i++) {
+            for (int i = 0; i < 4; i++) {
                 
                 listenSocket = new ServerSocket(serverPort);
                 clienteSocket = listenSocket.accept();
